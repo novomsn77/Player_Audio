@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.header{
+
+}
+
+.background{
+    background-image: linear-gradient(95deg, rgba(0, 0, 0, 0.8), rgba(101, 101, 101, 0.275)), url(../image/wallpaper_linkin_park.jpeg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-section{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section img{
+    width: 80%;
+    opacity: .5;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    
+}
+
+#informacoes-faixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0 1rem 0;
+    font-size: 1.5rem;
+}
+
+#container-botoes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #play-pause {
+    font-size: 4rem;
+  }
+
+  #voltar, #avancar {
+    font-size: 3rem;
+  }
